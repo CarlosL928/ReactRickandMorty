@@ -1,4 +1,13 @@
-.Titulo{
+.multipleh{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #9fffcb;
+    color: #1c1b1b;
+}
+
+.titulo{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #1c1b1b;
     text-align: center;
@@ -8,22 +17,19 @@
     margin: 1rem;
     border-radius: 0.5rem;
     border: 1rem solid #f77f00;
-
-    
+}
+button{
+    background-color: #1c1b1b;
+    color: #f77f00;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-.Lista {
-    display: flexbox;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    text-align: center;
-    background-color: #9fffcb;
-	list-style: none;
-	padding: 1.5rem;
-	border: 0.1rem solid lightgrey;
-	columns: 16rem;
-    column-gap: calc(var(--pad) * 2);
-    row-gap: calc(var(--pad) * 2);
-    border-radius: 0.5rem;
+.Link{
+   
     color: #f77f00;
 }
