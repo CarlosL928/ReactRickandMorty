@@ -1,0 +1,13 @@
+.Titulo{
+    font-size: 2rem;
+    color: #1c1b1b;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Lista {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+}
