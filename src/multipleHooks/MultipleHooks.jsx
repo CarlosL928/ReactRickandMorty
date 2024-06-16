@@ -48,6 +48,7 @@ const MultipleHooks = () => {
       <h2>Origen: {data?.origin?.name}</h2>     
       <img src={data?.image} alt="imagen" />
       
+      
 
       
       
